@@ -4,4 +4,8 @@
 		const today = this.getDay();
 		return _.includes(weekend, today)
 	}
+
+	Date.prototype.erHverdag = function(){
+		return !this.getHelg();
+	}
 })();
