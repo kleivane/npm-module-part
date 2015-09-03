@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "peerDependencies": {
-    "lodash": "3.10.1"
+    "lodash": "3.x.x"
   }
 }
